@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>샘스밍턴</title><meta charset="UTF-8">
+    <style>
+        body {background-color: black}
+        p {color: white;}
+    </style>
+    <script>
+        function show(){
+            document.getElementById("lose").src="media/cry.jpg";
+            document.getElementById("cry").innerHTML="흑흑 내가 졌어. 들어가도 좋아.";
+            document.getElementById("x").innerHTML=""
+            }
+    </script>
+</head>
+<body>
+    <img src="media/sams0.jpg" id="lose" onmousedown="show()" src="">
+    <p id="cry" onmousedown="show()">넌 누구니? 자신있으면 덤비라구.</p>
+    <p id="x" style="color: red;" onmousedown="show()">마우스로 샘을 클릭하여 공격하세요!</p>
+</body>
+</html>
